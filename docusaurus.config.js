@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'gobot',
   tagline: 'A special discord bot!',
-  url: 'https://gobot.sabafly.net',
+  url: 'https://gobot.sabafly.net/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ikafly144', // Usually your GitHub org/user name.
+  organizationName: 'sabafly', // Usually your GitHub org/user name.
   projectName: 'gobot', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ikafly144/gobot/tree/gh-pages',
+            'https://github.com/sabafly/gobot/tree/gh-pages',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/ikafly144/gobot/tree/gh-pages',
+            'https://github.com/sabafly/gobot/tree/gh-pages',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -71,7 +71,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/ikafly144/gobot',
+            href: 'https://github.com/sabafly/gobot',
             label: 'GitHub',
             position: 'right',
           },
@@ -111,7 +111,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/ikafly144/gobot',
+                href: 'https://github.com/sabafly/gobot',
               },
             ],
           },
