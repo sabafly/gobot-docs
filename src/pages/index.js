@@ -18,7 +18,19 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Document 📚
+          </Link>
+          <Link
+          className="button button--info button--lg"
+          to="https://github.com/ikafly144/gobot">
+            Source 🔗
+          </Link>
+        </div>
+        <div className={styles.buttons}>
+        <Link
+            className="button button--success button--lg"
+            to="https://discord.com/api/oauth2/authorize?client_id=973391124389572608&permissions=8&scope=bot%20applications.commands">
+            Invite bot 🤖
           </Link>
         </div>
       </div>
