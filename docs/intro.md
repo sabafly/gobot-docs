@@ -1,47 +1,28 @@
 ---
 sidebar_position: 1
+title: 紹介
+lastmod: 2023-01-17T09:15:37.409Z
 ---
+# このプロジェクトについて
 
-# Tutorial Intro
+よくぞこのドキュメントを見つけてくれました！
+このプロジェクトは[sabafly](https://github.com/sabafly)が開発するオープンソースのDiscord Botです。
 
-Let's discover **Docusaurus in less than 5 minutes**.
+このドキュメントのソースコードは[GitHub](https://github.com/sabafly/gobot-docs)にあります。
 
-## Getting Started
+現在も開発途中で誠心誠意機能の改善に努めているので心温かい支援の程よろしくお願いします。
 
-Get started by **creating a new site**.
+## バグ
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+このボットでバグが発生していると思われる場合は
+[Issue Tracker](https://github.com/sabafly/gobot/issues)
+で問題を報告してください。
 
-### What you'll need
+## 開発元
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+現在このプロジェクトは[sabafly](https://github.com/sabafly)が開発、運営を行っています。
 
-## Generate a new site
+## 価格
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+このプロジェクトは現在利用に際しいかなる金銭を受け取っていません。
+このプロジェクトはユーザーの皆様の寄付によって成り立っております。どうか寄付のご協力の程宜しくお願い致します。
