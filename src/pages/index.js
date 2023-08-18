@@ -22,14 +22,14 @@ function HomepageHeader() {
           </Link>
           <Link
           className="button button--info button--lg"
-          to="https://github.com/ikafly144/gobot">
+          to="https://github.com/sabafly/gobot">
             Source 🔗
           </Link>
         </div>
         <div className={styles.buttons}>
         <Link
             className="button button--success button--lg"
-            to="https://discord.com/api/oauth2/authorize?client_id=973391124389572608&permissions=8&scope=bot%20applications.commands">
+            to="https://discord.com/api/oauth2/authorize?client_id=1083042729996603412&permissions=8&scope=bot%20applications.commands">
             Invite bot 🤖
           </Link>
         </div>
