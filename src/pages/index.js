@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <Layout
       title={`ようこそ`}
-      description="Official gobot description">
+      description="Official gobot document page">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
