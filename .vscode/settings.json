@@ -1,5 +1,0 @@
-{
-    "frontMatter.content.autoUpdateDate": true,
-    "frontMatter.framework.startCommand": "yarn start",
-    "xml.downloadExternalResources.enabled": true
-}

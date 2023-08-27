@@ -42,8 +42,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Welcome`}
-      description="Official gobot page">
+      title={`ようこそ`}
+      description="Official gobot description">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
