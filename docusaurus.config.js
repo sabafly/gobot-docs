@@ -1,7 +1,11 @@
-module.exports = {
+// @ts-check
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
+      /**  @type {import('@docusaurus/plugin-content-docs').Plugin} */
       {
         path: 'docs',
         routeBasePath: 'docs',
@@ -17,6 +21,7 @@ module.exports = {
     ],
     [
       '@docusaurus/plugin-content-pages',
+      /**  @type {import('@docusaurus/plugin-content-pages').Plugin} */
       {
         path: 'src/pages',
         routeBasePath: '/',
@@ -32,17 +37,14 @@ module.exports = {
     ],
     [
       '@docusaurus/plugin-client-redirects',
+      /**  @type {import('@docusaurus/plugin-client-redirects').Plugin} */
       {
-        fromExtensions: ['html', 'htm'],
+        fromExtensions: ['html', 'htm', 'md', 'mdx'],
         toExtensions: ['exe', 'zip'],
         redirects: [
           {
             to: '/docs/intro',
             from: ['/docs']
-          },
-          {
-            to: '/',
-            from: ['/404']
           },
         ],
       },
@@ -69,7 +71,7 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'gobot',
+      title: 'Gobot',
       logo: {
         alt: 'Site Logo',
         src: 'img/logo.svg',
@@ -80,7 +82,7 @@ module.exports = {
         {
           to: 'docs/intro',
           activeBasePath: 'docs',
-          label: 'docs',
+          label: 'Documentation',
           position: 'left',
         },
         // ... other links
@@ -90,11 +92,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Learn',
           items: [
             {
-              label: 'Document',
+              label: 'Introduction',
               to: '/docs/intro',
+            },
+            {
+              label: 'Installation',
+              to: '/docs/usage'
             },
           ],
         },
@@ -122,13 +128,13 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'gobot Logo',
-        src: 'img/logo.svg',
-        href: 'https://gobot.sabafly.net',
-        width: 51,
-        height: 51,
+        alt: 'Sabafly Developers Logo',
+        src: 'img/sabafly_developers.svg',
+        href: 'https://github.com/sabafly',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} sabafly. Built with Docusaurus.`, // You can also put own HTML here
+      copyright: `Copyright © ${new Date().getFullYear()} Sabafly Teams. Built with Docusaurus.`, // You can also put own HTML here
     },
   },
 }
+
+module.exports = config;
