@@ -15,7 +15,7 @@
   "dependencies": {
     "@docusaurus/core": "^2.4.1",
     "@docusaurus/plugin-client-redirects": "^2.4.1",
-    "@docusaurus/plugin-content-pages": "^2.4.1",
+    "@docusaurus/plugin-content-pages": "^3.0.1",
     "@docusaurus/theme-classic": "^2.4.1",
     "remark-math": "^5.1.1"
   },
