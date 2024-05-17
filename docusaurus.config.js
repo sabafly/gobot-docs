@@ -105,6 +105,19 @@ const config = {
           ],
         },
         {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Terms of Service',
+              href: '/terms-of-service',
+            },
+            {
+              label: 'Privacy Policy',
+              href: '/privacy-policy',
+            },
+          ],
+        },
+        {
           title: 'Community',
           items: [
             {
@@ -115,11 +128,6 @@ const config = {
               label: 'Twitter',
               href: 'https://twitter.com/sabaflydev',
             },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
             {
               label: 'GitHub',
               href: 'https://github.com/sabafly/gobot',
